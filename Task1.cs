@@ -32,7 +32,6 @@ namespace Task_1
             vehicles[0] = myCar;
             vehicles[1] = myBicycle;
 
-            // Calculate and display the average speed for each vehicle
             foreach (var vehicle in vehicles)
             {
             	vehicle.DefineNatureHarmness();
